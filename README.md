@@ -10,7 +10,7 @@ You can deep link to a category on Netflix like so: <http://www.netflix.com/brow
  
 The objectives are as follows:
  
-1. Devise a way to *programatically* get the content from the above blog link, and store it in a format that can be utilized by your frontend code.
+1. Devise a way to *programatically* get the content from the above blog link, and store it in a format that can be utilized by your frontend code. The page doesn't update often, so you shouldn't be concerned about storing stale data / keeping it fresh.
 2. Build a UI that meets the criteria of functionality and looks pleasing. The app should do the following:
     1. List out all the Netflix categories.
     2. Click a category and it launches Netflix in a new window, deep linking to the category.
